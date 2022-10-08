@@ -1,13 +1,13 @@
 # Add-on information
 bl_info = {
     "name": "Reboot",
-    "author": "(saidenka) meta-androcto",
-    "version": (0, 1),
-    "blender": (2, 82, 0),
+    "author": "himham, dogway, mkbreuer, meta-androcto, saidenka",
+    "version": (1, 1),
+    "blender": (3, 3, 0),
     "location": "File Menu",
     "description": "Reboot Blender without save",
     "warning": "",
-    "wiki_url": "https://blenderartists.org/t/reboot-blender-addon/640465",
+    "wiki_url": "https://github.com/himham-jak/re-Boot-with-Keymap",
     "tracker_url": "",
     "category": "System",
 }
