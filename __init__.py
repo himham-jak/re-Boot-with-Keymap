@@ -25,7 +25,7 @@ class BLENDER_OT_Restart(bpy.types.Operator):
     bl_options = {"REGISTER"}
 
     def execute(self, context):
-        py = os.path.join(os.path.dirname(__file__), "wm.console_toggle.py")
+        py = os.path.join(os.path.dirname(__file__), "after_restart.py")
         filepath = bpy.data.filepath
         if filepath != "":
             subprocess.Popen([sys.argv[0], filepath, "-P", py])
